@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/Roboto.woff2') format('woff2'), url('../fonts/Roboto.woff') format('woff'), url('../fonts/Roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/Robotomedium.woff2') format('woff2'), url('../fonts/Robotomedium.woff') format('woff'), url('../fonts/Robotomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+button {
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+h1, h2, h3, p {
+    font-weight: 400;
+    margin: 0;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 4px 0 8px;
+}
+
+/* header start */
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.header_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header_block {
+    display: flex;
+}
+.header_im {
+    display: none;
+}
+.header_button {
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 16px 12px 16px 0;
+}
+
+/* header end */
+
+/* product start */
+
+.product {
+    padding-top: 127px;
+}
+.form_input {
+    width: 100%;
+    border: none;
+}
+.form_line {
+    height: 1px;
+    background-color: #d1d1d1;
+}
+.product_form {
+    padding-bottom: 56px;
+}
+.product_heading {
+    font-size: 22px;
+    color: #1D1D1D;
+    padding-bottom: 14px;
+}
+
+/* restaurants start */
+
+.restaurants_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.restaurant {
+    margin: 0 auto;
+    height: 356px;
+}
+.restaurant_im {
+    width: 308px;
+    height: 246px;
+    padding-bottom: 16px;
+}
+.restaurant_heading {
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: #1D1D1D;
+}
+.restaurant_assortment {
+    padding-bottom: 4px;
+    font-size: 14px;
+    color: #626262;
+}
+.restaurant_time {
+    font-size: 13px;
+    color: #1D1D1D;
+}
+
+/* restaurants end */
+
+/* product end */
+
+/* footer start */
+
+.footer {
+    background-color: #262626;
+    padding-top: 56px;
+}
+.footer_line {
+    height: 1px;
+    background-color: #797777;
+}
+.logow {
+    padding-bottom: 40px;
+}
+.footer_nav {
+    color: #FFFFFF;
+}
+.footer_nav_1 {
+    width: 173px;
+    margin: 32px 0 39px;
+}
+.footer_button {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B3B3B;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    padding: 12px 16px 12px;
+    margin-bottom: 32px;
+}
+.button_text_im {
+    padding-right: 17px;
+}
+.button_text {
+    display: flex;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+.button_im {
+    padding: 4px;
+}
+.footer_hash {
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer_nav_hash {
+    color: #49A144;
+}
+.footer_social_im {
+    margin-right: 7px;
+}
+.footer_nav_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 23px;
+}
+.footer_nav_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 40px;
+}
+.footer_app {
+    text-align: center;
+    margin: 24px 0;
+}
+.footer_app_im_1 {
+    margin-right: 24px;
+}
+.footer_down {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px 0;
+}
+.footer_down_text {
+    font-size: 11px;
+    color: #FFFFFF;
+}
+.footer_nav_text {
+    font-size: 13px;
+}
+
+/* footer end */
+
+/* arrow start */
+
+.arrow_up {
+    position: fixed;
+    padding: 0 16px 24px 0;
+    margin-top: 70%;
+}
+.arrow_block {
+    background-color: #59BD5A;
+    width: 64px;
+    height: 64px;
+    border-radius: 2px;
+    padding: 19px 24px;
+}
+
+/* arrow end */
+
+/* banner start */
+
+.banner {
+    width: 100%;
+    padding-top: 72px;
+    text-align: center;
+    background: url("../image/banner_m.png") bottom/320px no-repeat;
+    background-size: 100%;
+}
+
+/* banner end */
